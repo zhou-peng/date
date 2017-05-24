@@ -1,0 +1,126 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font: 14px/20px 'Trebuchet MS','微软雅黑';
+  color: #888;
+}
+
+pre {
+  margin: 8px 0;
+}
+
+.hljs {
+  border-radius: 5px;
+}
+
+.bottom {
+  margin-bottom: 8px;
+}
+
+.box {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.tip {
+  margin: 8px 0;
+  font-size: 12px;
+  padding: 12px;
+  color: #f19051;
+  background-color: #fbebd4;
+}
+
+.card {
+  position: relative;
+  padding: 20px;
+  width: 800px;
+  min-height: 200px;
+  margin: 10px auto;
+  box-shadow: 0 0 5px #aaa;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.box .card:nth-child(even) {
+  transform: rotate(1deg);
+}
+
+.box .card:nth-child(odd) {
+  transform: rotate(-1deg);
+}
+
+.title {
+  color: #666;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex .th:not(.width1),
+.flex .td:not(.width1) {
+  flex: 1;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.flex .th {
+  color: #666;
+  background-color: #adcad9;
+}
+
+.flex .td {
+  background-color: #F0F0F0;
+  font-size: 12px;
+}
+
+.th-flex {
+  display: flex;
+  border-top: 2px solid #fff;
+}
+
+
+.td-flex {
+  display: flex;
+}
+
+.th-flex > div,
+.td-flex > div {
+  flex: 1;
+  text-align: center;
+}
+
+.borderRight {
+  border-right: 2px solid #fff;
+}
+
+.lineHeight {
+  line-height: 20px!important;
+}
+
+.ok {
+  color: #fff;
+  background-color: #56ac80;
+}
+
+.err {
+  color: #fff;
+  background-color: #d77070;
+}
+
+.margin {
+  margin: 8px 0;
+}
+
+.width1 {
+  width: 60px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+}
